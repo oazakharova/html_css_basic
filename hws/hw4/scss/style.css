@@ -1,0 +1,43 @@
+.logos {
+  margin-bottom: 256px;
+}
+
+.article img {
+  margin-right: 68px;
+}
+
+.article-info {
+  height: 548px;
+  padding-top: 110px;
+}
+.article-info h2 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 30px;
+}
+.article-info p {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.6px;
+  margin-bottom: 50px;
+  padding-right: 24px;
+}
+.article-info a {
+  padding: 15px 30px;
+  background-color: #3A68B8;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 5px;
+}
