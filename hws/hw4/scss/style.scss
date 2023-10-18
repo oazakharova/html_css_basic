@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 .main-left {
 
     .title {
@@ -27,7 +29,7 @@
 
     h2 {
         color: #FFF;
-        font-family: Open Sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 700;
@@ -37,7 +39,7 @@
 
     p {
         color: #FFF;
-        font-family: Open Sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -50,7 +52,7 @@
         padding: 15px 30px;
         background-color: #3A68B8;
         color: #FFFFFF;
-        font-family: Open Sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -73,11 +75,8 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
-
     border-radius: 10px;
-    // opacity: 0.1;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 115.68%);
-    // z-index: 2;
+    background-color: #fff3;
     backdrop-filter: blur(100px);
 
     img {
@@ -87,7 +86,7 @@
     h6 {
         color: #FFF;
         text-align: center;
-        font-family: Open Sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 25px;
         font-style: normal;
         font-weight: 700;
@@ -98,7 +97,7 @@
     p {
         color: #FFF;
         text-align: center;
-        font-family: Open Sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -116,7 +115,7 @@
 
 .feedbackTitle {
     color: #FFF;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -126,7 +125,7 @@
 
 .feedbackParagraph {
     color: #FFF;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
