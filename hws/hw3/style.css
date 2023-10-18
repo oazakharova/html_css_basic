@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+main {
+    margin-top: 44px;
+    margin-bottom: 162px;
+}
+
+.topInfoWrap {
+    margin-bottom: 37px;
+}
+
+footer {
+    margin-top: 97px;
+    margin-bottom: 96px;
+}
