@@ -5,6 +5,7 @@
 .article {
     img {
         margin-right: 68px;
+        margin-bottom: 264px;
     }
 }
 
@@ -44,5 +45,53 @@
         line-height: normal;
         text-decoration: none;
         border-radius: 5px;
+    }
+}
+
+.awardsWrap {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 257px;
+}
+
+
+
+.awardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    border-radius: 10px;
+    // opacity: 0.1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 115.68%);
+    // z-index: 2;
+    backdrop-filter: blur(100px);
+
+    img {
+        margin-bottom: 30px;
+    }
+
+    h6 {
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31.25px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25.6px;
     }
 }
