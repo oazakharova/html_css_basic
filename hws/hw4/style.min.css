@@ -10,5 +10,4 @@ body{background-color:#020a18}
 .dsc{color:#fff;font-family:Open Sans;font-size:18px;font-weight:600;line-height:160%;opacity:.7;margin-bottom:50px}
 .main-link{padding:1rem 2rem;background-color:#3a68b8;color:#fff;border-radius:5px;font-family:Open Sans;font-size:20px;font-weight:600;text-decoration:none;margin-right:20px}
 .flex{display:flex;justify-content:space-between}
-.main-left,.main-right{width:46%}
 .main{margin-bottom:200px}

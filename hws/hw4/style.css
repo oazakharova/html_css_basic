@@ -20,7 +20,7 @@ body {
 
 .header-link {
     text-decoration: none;
-    color:  #FFF;
+    color: #FFF;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
@@ -37,7 +37,7 @@ body {
 }
 
 .subtitle {
-    color:#3A68B8;
+    color: #3A68B8;
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
@@ -50,7 +50,8 @@ body {
     font-family: Open Sans;
     font-size: 55px;
     font-weight: 800;
-    line-height: 130%; /* 71.5px */
+    line-height: 130%;
+    /* 71.5px */
     margin-bottom: 40px;
 }
 
@@ -59,7 +60,8 @@ body {
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%;
+    /* 28.8px */
     opacity: 0.7;
     margin-bottom: 50px;
 }
@@ -81,11 +83,10 @@ body {
     justify-content: space-between;
 }
 
-.main-left, .main-right {
+/*.main-left, .main-right {
     width: 46%;
-}
+}*/
 
 .main {
     margin-bottom: 200px;
 }
-
