@@ -132,6 +132,8 @@
 }
 
 .footer {
+  padding-left: 2%;
+  padding-right: 2%;
   color: #FFF;
   font-family: Roboto, sans-serif;
   margin-bottom: 46px;
@@ -184,4 +186,100 @@
 }
 .footer .contactLogos a {
   text-decoration: none;
+}
+
+main {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media (max-width: 1024px) {
+  .main .container {
+    max-width: 1024px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .container .subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .main .container .title {
+    font-size: 48px;
+  }
+  .main .container .main-right {
+    margin-top: 128px;
+  }
+
+  .logos .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+
+  .logos {
+    margin-bottom: 277px;
+  }
+
+  .article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .article img {
+    max-width: 594px;
+    margin-bottom: 68px;
+  }
+  .article .article-info {
+    max-width: 484px;
+  }
+
+  .awardsWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .awardsWrap .awardItem {
+    max-width: 362px;
+  }
+
+  .feedback {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .feedbackTitle {
+    max-width: 548px;
+  }
+
+  .feedbackParagraph {
+    max-width: 460px;
+  }
+
+  .feedback img {
+    margin-top: 64px;
+  }
 }
