@@ -135,6 +135,8 @@
 }
 
 .footer {
+    padding-left: 2%;
+    padding-right: 2%;
     color: #FFF;
     font-family: Roboto, sans-serif;
     margin-bottom: 46px;
@@ -198,5 +200,91 @@
 
     .contactLogos a {
         text-decoration: none;
+    }
+}
+
+main {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media (max-width:1024px) {
+    .main .container {
+        max-width: 1024px;
+        flex-direction: column;
+        align-items: center;
+
+        .subtitle {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .title {
+            font-size: 48px;
+        }
+
+        .main-right {
+            margin-top: 128px;
+        }
+    }
+
+    .logos .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        justify-items: center;
+    }
+
+    .logos {
+        margin-bottom: 277px;
+    }
+
+    .article {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            max-width: 594px;
+            margin-bottom: 68px;
+        }
+
+        .article-info {
+            max-width: 484px;
+            ;
+        }
+    }
+
+    .awardsWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .awardItem {
+            max-width: 362px;
+        }
+    }
+
+    .feedback {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedbackTitle {
+        max-width: 548px;
+    }
+
+    .feedbackParagraph {
+        max-width: 460px;
+    }
+
+    .feedback img {
+        margin-top: 64px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 31px;
     }
 }
